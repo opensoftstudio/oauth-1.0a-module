@@ -1,10 +1,10 @@
 {
     "name": "opensoftstudio/oauth-php",
     "type": "library",
-    "description": "An OAuth 1.0a PHP library",
+    "description": "An OAuth 1.0a PHP library"
     "require": {
         "php": ">=5.3.3",
-        "ext-curl": "*",
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-0": {
