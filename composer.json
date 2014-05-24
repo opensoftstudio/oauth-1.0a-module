@@ -3,8 +3,7 @@
     "type": "library",
     "description": "An OAuth 1.0a PHP Module",
     "require": {
-        "php": ">=5.3.3",
-        "ext-curl": "*"
+        "php": ">=5.3.3"
     },
     "autoload": {
         "psr-0": {
