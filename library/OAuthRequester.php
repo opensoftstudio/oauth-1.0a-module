@@ -30,8 +30,10 @@
  * THE SOFTWARE.
  */
 
-require_once dirname(__FILE__) . '/OAuthRequestSigner.php';
-require_once dirname(__FILE__) . '/body/OAuthBodyContentDisposition.php';
+namespace OAuthModule;
+
+use OAuthModule\OAuthRequestSigner;
+use OAuthModule\Body\OAuthBodyContentDisposition;
 
 
 class OAuthRequester extends OAuthRequestSigner

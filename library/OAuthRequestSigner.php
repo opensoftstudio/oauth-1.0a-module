@@ -31,10 +31,10 @@
  * THE SOFTWARE.
  */
 
+namespace OAuthModule;
 
-require_once dirname(__FILE__) . '/OAuthStore.php';
-require_once dirname(__FILE__) . '/OAuthRequest.php';
-
+use OAuthModule\OAuthStore;
+use OAuthModule\OAuthRequest;
 
 class OAuthRequestSigner extends OAuthRequest
 {

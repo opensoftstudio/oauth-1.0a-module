@@ -29,6 +29,8 @@
  * THE SOFTWARE.
  */
 
+namespace OAuthModule\Body;
+
 class OAuthBodyContentDisposition
 {
     /**

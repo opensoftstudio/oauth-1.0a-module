@@ -32,7 +32,9 @@
  * THE SOFTWARE.
  */
 
-require_once dirname(__FILE__) . '/OAuthException2.php';
+namespace OAuthModule;
+
+use OAuthModule\OAuthException2;
 
 class OAuthStore
 {
